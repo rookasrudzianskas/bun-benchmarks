@@ -1,0 +1,26 @@
+{
+  "name": "graphql-hapi-sdl-first",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@apollo/server": "4.9.4",
+    "@as-integrations/hapi": "2.0.1",
+    "@graphql-tools/schema": "10.0.0",
+    "@hapi/hapi": "21.3.2",
+    "@prisma/client": "5.4.2",
+    "graphql": "16.8.1",
+    "graphql-scalars": "1.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "18.18.5",
+    "prisma": "5.4.2",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "prisma-aws-lambda-example",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prisma:introspect": "prisma introspect",
+    "prisma:generate": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "5.4.2"
+  },
+  "devDependencies": {
+    "prisma": "5.4.2",
+    "serverless-dotenv-plugin": "6.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "rest-express",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "5.4.2",
+    "fastify": "4.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.18.5",
+    "prisma": "5.4.2",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  }
+}

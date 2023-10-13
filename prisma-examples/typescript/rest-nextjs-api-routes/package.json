@@ -1,0 +1,30 @@
+{
+  "name": "rest-nextjs-api-routes",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "5.4.2",
+    "next": "13.5.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "8.0.7",
+    "supports-color": "8.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.5",
+    "@types/react": "18.2.28",
+    "@types/react-dom": "18.2.13",
+    "prisma": "5.4.2",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  }
+}
